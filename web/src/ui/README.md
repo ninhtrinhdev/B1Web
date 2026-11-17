@@ -1,0 +1,3 @@
+UI dùng chung, không gắn với chức năng cụ thể nào:
+- `components/` – `Panel.js`, sau này `Button.js`, `Toolbar.js`…
+Feature nào cũng có thể dùng; ngược lại `ui/` không được import feature.

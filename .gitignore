@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+.vite/
+# Bí mật & dữ liệu chạy thử
+.env
+.env.*.local
+server/data/*.db
+server/data/*.db-*
+# Blender
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+# Hệ điều hành / editor
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,6 @@
+.loading { position: fixed; inset: 0; display: grid; place-content: center; gap: 12px;
+  background: var(--c-bg); color: var(--c-text); transition: opacity .4s; z-index: 100; }
+.loading.is-done { opacity: 0; pointer-events: none; }
+.loading__bar { width: 240px; height: 4px; background: var(--c-line); }
+.loading__bar span { display: block; height: 100%; width: 0; background: var(--c-accent); transition: width .2s; }
+@media (prefers-reduced-motion: reduce) { .loading, .loading__bar span { transition: none; } }

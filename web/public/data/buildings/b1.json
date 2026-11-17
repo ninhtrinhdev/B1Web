@@ -1,0 +1,19 @@
+{
+  "id": "b1",
+  "name": "Nhà B1",
+  "model": "models/buildings/b1/b1.glb",
+  "origin": { "lat": 21.004556536, "lon": 105.846622104 },
+  "rotationDeg": 0,
+  "placeholder": { "size": [70, 35, 50] },
+  "description": "TODO (nhóm nội dung): giới thiệu nhà B1, đơn vị sử dụng, năm xây dựng – kiểm tra lại nguồn trước khi đưa lên.",
+  "pois": [
+    {
+      "id": "b1-sanh",
+      "title": "Sảnh chính B1",
+      "position": [0, 2, -25],
+      "text": "TODO: mô tả sảnh, mái đón xe.",
+      "image": null
+    }
+  ],
+  "views": ["Cam_Ref", "Cam_Aerial", "Cam_Lobby", "Cam_Porch"]
+}

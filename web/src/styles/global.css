@@ -1,0 +1,19 @@
+:root {
+  --c-bg: #e9eef2;
+  --c-text: #1d2a33;
+  --c-line: #c6d0d8;
+  --c-accent: #b3141b;   /* đỏ Bách khoa – chỉnh theo bộ nhận diện của trường */
+  --font: system-ui, "Segoe UI", Roboto, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; font-family: var(--font); color: var(--c-text); }
+#viewport { position: fixed; inset: 0; }
+#ui { position: fixed; inset: 0; pointer-events: none; }
+#ui > * { pointer-events: auto; }
+.panel { position: absolute; top: 16px; right: 16px; bottom: 16px; width: min(360px, calc(100% - 32px));
+  background: #fff; border: 1px solid var(--c-line); overflow: auto; }
+.panel__head { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--c-line); }
+.panel__head h2 { margin: 0; font-size: 1.1rem; }
+.panel__close { border: 0; background: none; font-size: 1.5rem; cursor: pointer; }
+.panel__body { padding: 16px; line-height: 1.5; }
+:focus-visible { outline: 2px solid var(--c-accent); outline-offset: 2px; }

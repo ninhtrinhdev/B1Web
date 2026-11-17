@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "cesium.gltf-vscode",
+    "editorconfig.editorconfig",
+    "ms-python.python",
+    "ms-vsliveshare.vsliveshare"
+  ]
+}
